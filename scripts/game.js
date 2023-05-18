@@ -1,42 +1,46 @@
+let enabledSystemSound = true
+
+const music = new Audio() 
+
+music.src=""
+
+music.play()
+
+function handleSound() {
+
+const soundButton=document.getElementById("btn-sound")
+
+if(enabledSystemSound) {
+
+enabledSystemSound =false
+
+} else {
+
+enabledSystemSound = true
+
+}
+
+}
+
 const board = []
 
-function loadgame (){
-board.push("start")
+function loadGame() {
+    board.push("start")
 
-for(let i=2; i<=24; i++) {
-    const randompath= Math.floor(Math.random() *2)
+    for (let i = 2; i <= 99; i++) {
+        const randomPath = Math.floor(Math.random() * 2)
 
-    board.push(randompath)
+        board.push(randomPath)
 
-    const element = document.getElementById("path-"+i)
-    
-    if(randompath ===0){
-element.style.backgroundImage = "url('caminho ')";
-    }else{
-element.style.backgroundImage=  "url('./ ')";
+        const element = document.getElementById("path-" + i)
+        console.log(element)
+        if (randomPath === 0) {
+            element.style.backgroundImage = "url('./assests/tiles/path_free.png')";
+        } else {
+            element.style.backgroundImage = "url('./assests/tiles/path_blocked.png')";
 
+        }
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
+loadGame()
