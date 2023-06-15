@@ -134,3 +134,30 @@ button {
 
 }
 
+.emblems {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 35px;
+
+    background-color: #4DCCA7;
+
+    border-radius: 8px;
+
+    padding: 8px;
+
+    color: black;
+
+    width: 200px;
+
+    height: 70px;
+
+    text-align: center;
+
+    margin-top: 80px;
+
+}

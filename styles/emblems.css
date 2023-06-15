@@ -1,0 +1,35 @@
+body {
+
+    background-color: #F47F65
+}
+
+.b {
+    color: #b81313;
+    ;
+}
+
+.a {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+#xapolinoggbala {
+    margin-bottom: 200px;
+
+
+
+}
+
+#emblem {
+    height: 300px;
+    ;
+
+    ;
+    width: 300px;
+    ;
+}

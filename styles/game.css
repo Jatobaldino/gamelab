@@ -67,3 +67,22 @@ background-size: 48px;
     right: 0;
     
     }
+
+    .volume:hover {
+
+        filter: brightness(1.3);
+    
+        color: black;
+    
+        cursor: pointer;
+    
+    
+    }
+
+    .character {
+
+width: 48px;
+
+height: 48px;
+
+    }
